@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="등록"
+        android:id="@+id/registration"
+        android:icon="@drawable/registration"
+        app:showAsAction="withText"
+        android:enabled="true"
+        android:checkable="true"
+        />
+
+    <item
+        android:title="장바구니"
+        android:id="@+id/basket"
+        android:icon="@drawable/jjim"
+        app:showAsAction="withText"
+        android:checkable="true"
+        android:enabled="true" />
+    <item
+        android:title="홈"
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        app:showAsAction="withText"
+        android:enabled="true"
+        android:checkable="true"/>
+    <item
+        android:title="신고"
+        android:id="@+id/report"
+        android:icon="@drawable/report"
+        app:showAsAction="withText"
+        android:checkable="true"
+        android:enabled="true" />
+   <item
+       android:title="마이페이지"
+       android:id="@+id/mypage"
+       android:icon="@drawable/mypage3"
+       app:showAsAction="withText"
+       android:checkable="true"
+       android:enabled="true" />
+
+
+
+
+</menu>

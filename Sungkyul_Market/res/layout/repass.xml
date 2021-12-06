@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Myinformchange"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="비밀번호 변경"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginTop="23dp">
+
+    </TextView>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일 : "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="입력해주세요"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:background="@null"
+            android:id="@+id/repass_edt1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입에 입력한 이메일을 입력해주세요.
+                          이메일로 비밀번호 변경 메일이 전송됩니다."
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnbackground"
+
+        android:text="메일 전송"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+
+        android:id="@+id/repass_btn1"/>
+
+</LinearLayout>

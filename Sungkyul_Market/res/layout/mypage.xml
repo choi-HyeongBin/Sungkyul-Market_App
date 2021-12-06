@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Transaction"
+        android:layout_marginTop="130dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/mypage_btn5"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="구매 내역"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/mypage_btn6"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="판매 내역"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/mypage_btn7"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="구매 현황"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/mypage_btn8"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="판매 현황"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/mypage_btn9"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="보낸 쪽지함"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/mypage_btn10"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="받은 쪽지함"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/mypage_btn2"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="상품 관리"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/mypage_btn4"
+                android:layout_width="393dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="내 정보 확인"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btnbackground"
+                android:layout_marginBottom="15dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

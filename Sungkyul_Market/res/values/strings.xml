@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Firebase_Application</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">
+        com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

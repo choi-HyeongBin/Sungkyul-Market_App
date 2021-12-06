@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@mipmap/ic_launcher_round"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/productlook1_btnReview"
+            android:layout_marginTop="10dp"
+            android:id="@+id/productlook1_imv1"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/productlook1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="제목"
+            android:textSize="40dp"
+            android:textColor="@color/browser_actions_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/productlook1_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/productlook1_useremail"
+                android:textColor="@color/browser_actions_text_color"
+
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="판매자 이메일"
+                android:layout_weight="4"/>
+
+            <Button
+                android:id="@+id/productlook1_btnReview"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:text="리뷰 보기"
+                android:textColor="@color/browser_actions_text_color"
+                android:textStyle="bold"
+                android:background="@drawable/btnbackground"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_marginRight="15dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/backgroundline"
+            android:padding="20dp"
+            android:textColor="@color/browser_actions_text_color"
+            android:scrollbars="vertical"
+            android:scrollbarFadeDuration="0"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:hint="설명"
+            android:textSize="20dp"
+            android:id="@+id/productlook1_text"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:textColor="@color/browser_actions_text_color"
+                android:hint="카테고리"
+                android:textSize="15dp"
+                android:background="@drawable/backgroundline"
+                android:id="@+id/productcontrol_category"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:textColor="@color/browser_actions_text_color"
+                android:hint="상태"
+                android:textSize="15dp"
+                android:background="@drawable/backgroundline"
+                android:id="@+id/productcontrol_state"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+
+                />
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:background="@drawable/backgroundline"
+                android:textColor="@color/browser_actions_text_color"
+                android:hint="가격"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:id="@+id/productlook1_money"
+                android:layout_margin="5dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/productlook1_btn2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/btnbackground"
+                android:text=" 채팅으로 거래하기"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
