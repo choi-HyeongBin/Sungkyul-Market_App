@@ -10,9 +10,9 @@
 ---
 ### 사용 기술
 
-+ Androidstudio
-+ Java
-+ FireBase
+  + Androidstudio
+  + Java
+  + FireBase
 ---
 ### Sungkyul-Market 기능
 
